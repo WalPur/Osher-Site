@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Panton';
+    src: local('Panton'), url(../../fonts/Panton-SemiBold.ttf) format('truetype');
+}
+
+.nav-link {
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    letter-spacing: 0.015em;
+}
+
+.nav-link:hover {
+    color: #3FBAFF;
+    transition: .4s ease-out;
+}
+
+.nav-link:active {
+    text-decoration: underline;
+}
+
+.headerButton {
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #323232;
+    border: 1px solid #3FBAFF;
+    border-radius: 16px;
+    background: 
+        linear-gradient(105deg, #3FBAFF 50%, #ffffff 50%) right/50% 100%,
+        linear-gradient(90deg, #6892FF 7.24%, #7BD0FF 100%) left/52% 100%;
+    background-size: 500%;
+    transition: .8s ease-out;
+}
+
+.headerButton:hover {
+    background-position: left;
+    color: #FFFFFF!important;
+}
+
+.headerLang:hover {
+    background: none!important;
+    border: none!important;
+}
