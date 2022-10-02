@@ -1,0 +1,62 @@
+.mainFrame {
+    height: calc(100vh - 63px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainText h1{
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 86px;
+    letter-spacing: 0.1em;
+
+    color: #3FBAFF;
+}
+
+.mainText h2 {
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 44px;
+    max-width: 40%;
+    margin-top: 16px;
+
+    color: #323232;
+}
+
+.feedback {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 48px;
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    border-radius: 12px;
+
+    color: #323232;
+    background-color: transparent;
+    border: none;
+}
+
+.feedbackUnderline {
+    width: 35px;
+    margin-left: 10px;
+    border: 2px solid #3FBAFF;
+}
+
+.feedback:hover {
+    background: #3FBAFF;
+    color: #ffffff;
+}
+
+.feedback:hover .feedbackUnderline {
+    border-color: #ffffff;
+}

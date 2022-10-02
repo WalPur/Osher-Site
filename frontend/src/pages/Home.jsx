@@ -7,6 +7,7 @@ function Home() {
     return(
         <div>
             <Components.Header />
+            <Components.mainFrame />
         </div>
     )
 }
