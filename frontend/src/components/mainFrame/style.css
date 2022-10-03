@@ -40,6 +40,8 @@
     text-align: center;
     letter-spacing: 0.015em;
     border-radius: 12px;
+    transition: .1s linear;
+    padding: 12px 0;
 
     color: #323232;
     background-color: transparent;
@@ -53,8 +55,9 @@
 }
 
 .feedback:hover {
-    background: #3FBAFF;
+    background: #3FBAFF!important;
     color: #ffffff;
+    padding: 12px 32px;
 }
 
 .feedback:hover .feedbackUnderline {

@@ -1,9 +1,11 @@
 import Header from './header/header'
-import mainFrame from './mainFrame/mainframe';
+import MainFrame from './mainFrame/mainframe';
+import ItSolutions from './ItSolutions/ItSolutions';
 
 const Components = {
     Header,
-    mainFrame
+    MainFrame,
+    ItSolutions,
 }
 
 export default Components;

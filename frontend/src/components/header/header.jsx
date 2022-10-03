@@ -28,7 +28,7 @@ function Header() {
               <Nav.Link href="#link">Команда</Nav.Link>
             </Nav>
             <Nav>
-              <Button variant="outline-info" className="headerButton">Обсудить проект</Button>
+              <Button variant="outline-info" className="headerButton mainButton">Обсудить проект</Button>
               <Button variant="light" className="headerLang">Русский</Button>
             </Nav>
           </Navbar.Collapse>

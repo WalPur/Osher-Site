@@ -3,7 +3,7 @@ import "./style.css"
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 
-function mainFrame() {
+function MainFrame() {
   return (
     <div className="mainFrame">
       <Container className="mainText">
@@ -23,4 +23,4 @@ function mainFrame() {
   )
 }
 
-export default mainFrame;
+export default MainFrame;

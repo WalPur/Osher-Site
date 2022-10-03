@@ -7,7 +7,8 @@ function Home() {
     return(
         <div>
             <Components.Header />
-            <Components.mainFrame />
+            <Components.MainFrame />
+            <Components.ItSolutions />
         </div>
     )
 }

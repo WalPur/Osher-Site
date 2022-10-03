@@ -3,6 +3,16 @@
     src: local('Panton'), url(../../fonts/Panton-SemiBold.ttf) format('truetype');
 }
 
+.navbar {
+    height: 71px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .container {
+    position: fixed;
+}
+
 .nav-link {
     font-family: 'Panton';
     font-style: normal;
@@ -23,12 +33,13 @@
     text-decoration: underline;
 }
 
-.headerButton {
+.mainButton {
     font-family: 'Panton';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
+    width: 200px;
     color: #323232;
     border: 1px solid #3FBAFF;
     border-radius: 16px;
@@ -39,7 +50,7 @@
     transition: .8s ease-out;
 }
 
-.headerButton:hover {
+.mainButton:hover {
     background-position: left;
     color: #FFFFFF!important;
 }
