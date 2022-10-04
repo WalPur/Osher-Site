@@ -9,7 +9,7 @@ server {
     server_tokens off;
 
     location / {
-        root   /usr/share/nginx/html;
+        root   /usr/share/nginx/osher;
         index  index.html index.htm;
         try_files $uri $uri/ /index.html;
     }
@@ -30,7 +30,7 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header Host $http_host;
         proxy_redirect off;
-        proxy_pass   http://django:8000;
+        proxy_pass   http://django:8001;
     }
 
     location /django_static/ {
