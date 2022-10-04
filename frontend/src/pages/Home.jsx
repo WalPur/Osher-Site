@@ -9,6 +9,7 @@ function Home() {
             <Components.Header />
             <Components.MainFrame />
             <Components.ItSolutions />
+            <Components.Directions />
         </div>
     )
 }

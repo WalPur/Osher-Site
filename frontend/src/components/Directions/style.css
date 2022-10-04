@@ -1,0 +1,90 @@
+.Directions {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+
+.DirectionsPhones {
+    position: absolute;
+    z-index: 1;
+}
+
+.DirectionsPhones1 {
+    top: 302px;
+    left: -92px;
+}
+
+.DirectionsPhones2 {
+    top: 313px;
+    left: calc(98% - 382px);
+}
+
+.DirectionsContainer {
+    position: relative;
+    z-index: 2;
+}
+
+.DirectionsContent {
+    display: flex;
+    justify-content: center;
+}
+
+.DirectionsList {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.DirectionsListElem:first-of-type {
+    margin-top: 0;
+}
+
+.DirectionsListElem {
+    display: flex;
+    margin-top: 28px;
+}
+
+.DirectionsListElemNum{
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+
+    color: #3FBAFF;
+}
+
+.DirectionsListElemText {
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+
+    color: #323232;
+}
+
+.DirectionsListElem2 {
+    margin-left: 30px;
+}
+
+.DirectionsListElem3 {
+    margin-left: 60px;
+}
+
+.DirectionsListElem4 {
+    margin-left: 90px;
+}
+
+.DirectionsListElem5 {
+    margin-left: 120px;
+}
+
+.DirectionsListElem6 {
+    margin-left: 150px;
+}
