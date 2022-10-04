@@ -19,4 +19,8 @@ services:
       - 8001
     depends_on:
       - postgres
-  
+
+
+volumes:
+  static_volume:
+  media_volume:
