@@ -198,7 +198,7 @@ function OurProjects() {
                             />
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className="ProjectsTrackerBanner ProjectsBanner">
 
                     </Row>
                     <Row>
