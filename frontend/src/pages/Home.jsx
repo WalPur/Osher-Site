@@ -10,6 +10,7 @@ function Home() {
             <Components.MainFrame />
             <Components.ItSolutions />
             <Components.Directions />
+            <Components.OurProjects />
         </div>
     )
 }
