@@ -4,6 +4,12 @@
     url(../../fonts/exotc350bdbtrusbyme_bold.otf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Engravers Gothic';
+    src: local('Engravers Gothic'), 
+    url(../../fonts/Engravers/EngraversGothic-Bold.ttf) format('truetype');
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600&display=swap');
 
 .ProjectsDesc {
@@ -18,6 +24,12 @@
     font-size: 18px;
     line-height: 28px;
     color: #323232;
+}
+
+.ProjectsRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .ProjectsBanner {
@@ -146,4 +158,53 @@
 .ProjectsTrackerBanner {
     background: radial-gradient(55.78% 139.91% at 50% -36%, rgba(0, 194, 255, 0.2) 0%, rgba(65, 209, 255, 0) 100%), #000413;
     height: 500px;
+    overflow: hidden;
+}
+
+.ProjectsTrackerContent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjectsTrackerInfo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ProjectsTrackerHeader {
+    font-family: 'Engravers Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #4FD5FF;
+}
+
+.ProjectsTrackerText {
+    font-family: 'Engravers Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.ProjectsTrackerText1, .ProjectsTrackerText2 {
+    text-align: center;
+}
+
+.ProjectsTrackerContainerPhone {
+    width: 100%;
+    height: 159px;
+    display: flex;
+    justify-content: center;
+}
+
+.TrackerPhone {
+    width: 1150px;
+    height: 585px;
 }

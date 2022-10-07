@@ -30,7 +30,7 @@ function OurProjects() {
                             web-сайту.
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className="ProjectsRow">
                         <Col sm={7} className="ProjectsMobivetBanner">
                             <Row className="ProjectsBanner">
                                 <Col sm={6} className="ProjectsMobivetInfo">
@@ -198,16 +198,38 @@ function OurProjects() {
                             />
                         </Col>
                     </Row>
-                    <Row className="ProjectsTrackerBanner ProjectsBanner">
+                    <Row className="ProjectsTrackerBanner ProjectsBanner ProjectsRow">
+                        <div className="ProjectsTrackerContent">
+                            <div className="ProjectsTrackerInfo">
+                                <h3 className="ProjectsTrackerHeader">
+                                    Трекер Здоровья
+                                </h3>
+                                <div className="ProjectsTrackerText">
+                                    <p className="ProjectsTrackerText1">
+                                        Мобильные технологии на страже вашего 
+                                        здоровья.
+                                    </p>
+                                    <p className="ProjectsTrackerText2">
+                                        Следите за своим здоровьем!
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="ProjectsTrackerContainerPhone">
+                                <img
+                                    src="images/Projects/tracker/phone.png"
+                                    className="TrackerPhone"
+                                    alt="Скриншоты трекера"
+                                />
+                            </div>
+                        </div>
+                    </Row>
+                    <Row className="ProjectsRow">
 
                     </Row>
-                    <Row>
+                    <Row className="ProjectsRow">
 
                     </Row>
-                    <Row>
-
-                    </Row>
-                    <Row>
+                    <Row className="ProjectsRow">
 
                     </Row>
                 </div>
