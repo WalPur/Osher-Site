@@ -198,7 +198,21 @@ function OurProjects() {
                             />
                         </Col>
                     </Row>
-                    <Row className="ProjectsTrackerBanner ProjectsBanner ProjectsRow">
+                    <Row className="
+                        ProjectsTrackerBanner
+                        ProjectsBanner
+                        ProjectsRow
+                    ">
+                        <img
+                            src="images/Projects/tracker/Group1.svg"
+                            className="TrackerChaos TrackerChaos1"
+                            alt=""
+                        />
+                        <img
+                            src="images/Projects/tracker/Group2.svg"
+                            className="TrackerChaos TrackerChaos2"
+                            alt=""
+                        />
                         <div className="ProjectsTrackerContent">
                             <div className="ProjectsTrackerInfo">
                                 <h3 className="ProjectsTrackerHeader">

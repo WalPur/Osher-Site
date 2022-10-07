@@ -159,6 +159,25 @@
     background: radial-gradient(55.78% 139.91% at 50% -36%, rgba(0, 194, 255, 0.2) 0%, rgba(65, 209, 255, 0) 100%), #000413;
     height: 500px;
     overflow: hidden;
+    position: relative;
+}
+
+.TrackerChaos {
+    position: absolute;
+}
+
+.TrackerChaos1 {
+    width: 1302px;
+    height: 1302px;
+    left: -1026px;
+    top: -259px;
+}
+
+.TrackerChaos2 {
+    width: 986px;
+    height: 986px;
+    left: 1033px;
+    top: -26px;
 }
 
 .ProjectsTrackerContent {
