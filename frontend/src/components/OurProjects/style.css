@@ -12,6 +12,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
 .ProjectsDesc {
     display: flex;
     justify-content: space-between;
@@ -226,4 +228,76 @@
 .TrackerPhone {
     width: 1150px;
     height: 585px;
+}
+
+.ProjectsMyWork {
+    max-width: 520px;
+    padding: 0;
+}
+
+.ProjectsMyWork {
+    position: relative;
+}
+
+.ProjectsMyWorkBackground {
+    position: absolute;
+    z-index: 1;
+}
+
+.ProjectsMyWorkSymbol {
+    position: absolute;
+    z-index: 1;
+    left: 330px;
+    bottom: -50%;
+}
+
+.ProjectsMyWorkContent {
+    width: 100%;
+    height: 100%;
+    padding: 32px;
+    z-index: 20;
+    position: relative;
+}
+
+.ProjectsMyWorkHeader {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    margin-top: 33px;
+}
+
+.ProjectsMyWorkDesc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.ProjectsEagleGo {
+    padding: 0;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProjectsEagleGoContent {
+    background: #0D99FF;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ProjectsEagleGoDesc {
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
 }

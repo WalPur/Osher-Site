@@ -238,7 +238,52 @@ function OurProjects() {
                         </div>
                     </Row>
                     <Row className="ProjectsRow">
-
+                        <Col sm={5} className="ProjectsBanner ProjectsMyWork">
+                            <div className="ProjectsMyWorkBackground">
+                                <img
+                                    src="images/Projects/mywork/background.png"
+                                    className="MyWorkBackground"
+                                    alt="Фоновая картинка Моя Работа"
+                                />
+                            </div>
+                            <div className="ProjectsMyWorkSymbol">
+                                <img
+                                    src="images/Projects/mywork/symbol.svg"
+                                    className="MyWorkSymbol"
+                                    alt=""
+                                />
+                            </div>
+                            <div className="ProjectsMyWorkContent">
+                                <img
+                                    src="images/Projects/mywork/logo.png"
+                                    className="MyWorkLogo"
+                                    alt="Логотип Моя Работа"
+                                />
+                                <h3 className="ProjectsMyWorkHeader">
+                                    Работа в Якутии
+                                </h3>
+                                <p className="ProjectsMyWorkDesc">
+                                    Найдите работу мечты в любой точке Якутии
+                                </p>
+                            </div>
+                        </Col>
+                        <Col sm={7} className="ProjectsBanner ProjectsEagleGo">
+                            <div className="ProjectsEagleGoContent">
+                                <img
+                                    src="images/Projects/eaglego/logo.svg"
+                                    className="EagleGoLogo"
+                                    alt="Логотип Eagle Go"
+                                />
+                                <p className="ProjectsEagleGoDesc">
+                                    Агрегатор курьерской службы
+                                </p>
+                            </div>
+                            <img
+                                src="images/Projects/eaglego/girl.png"
+                                className="EagleGoGirl"
+                                alt=""
+                            />
+                        </Col> 
                     </Row>
                     <Row className="ProjectsRow">
 
