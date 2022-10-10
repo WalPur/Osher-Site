@@ -286,7 +286,35 @@ function OurProjects() {
                         </Col> 
                     </Row>
                     <Row className="ProjectsRow">
+                        <Col sm={7} className="ProjectsBanner ProjectsVivat">
+                            <div className="ProjectsVivatContent">
+                                <div className="ProjectsVivatInfo">
+                                    <img
+                                        src="images/Projects/vivat/logo.png"
+                                        className="VivatLargeLogo"
+                                        alt="Логотип Виват"
+                                    />
+                                    <div className="ProjectsVivatDesc">
+                                        Аптека у Вас в кармане
+                                    </div>
+                                </div>
+                                <img
+                                    src="images/Projects/vivat/symbols.png"
+                                    className="VivatSymbols"
+                                    alt=""
+                                />
+                            </div>
+                            <div className="ProjectsVivatScreen">
+                                <img
+                                    src="images/Projects/vivat/screen.png"
+                                    className="VivatScreen"
+                                    alt="Скриншот вивата"
+                                />
+                            </div>
+                        </Col>
+                        <Col sm={5}>
 
+                        </Col>
                     </Row>
                     <Row className="ProjectsRow">
 

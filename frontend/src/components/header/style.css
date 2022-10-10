@@ -7,10 +7,12 @@
     height: 71px;
     display: flex;
     justify-content: center;
-}
-
-.navbar .container {
+    z-index: 9999;
+    padding: 0;
     position: fixed;
+    background: #ffffff!important;
+    opacity: 1;
+    width: 100%;
 }
 
 .nav-link {
