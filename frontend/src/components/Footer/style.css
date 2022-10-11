@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Panton bold';
+    src: local('Panton Bold'), url(../../fonts/Panton-Bold.ttf) format('truetype');
+}
+
+footer {
+    padding-top: 56px;
+    padding-bottom: 29px;
+}
+
+.FooterLogo {
+    height: 100%;
+}
+
+.FooterMain {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+
+.FooterTable {
+    display: flex;
+    width: 500px;
+    height: 188px;
+    color: #323232;
+}
+
+.FooterTableProjects {
+    width: inherit;
+}
+
+.FooterTableHeader {
+    font-family: 'Panton Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.FooterTableProjectsContent {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    overflow: visible;
+    flex-wrap: wrap;
+    height: 160px;
+}
+
+.FooterTableObject {
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.FooterContacts {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #323232;
+}
+
+.FooterContactsSkolkovo, .FooterContactsPhone {
+    margin-bottom: 28px;
+}
+
+.FooterIcon {
+    padding: 4px;
+    margin-right: 16px;
+}
+
+.FooterCopy {
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #323232;
+}
