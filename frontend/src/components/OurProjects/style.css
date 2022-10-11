@@ -16,6 +16,10 @@
 
 @import url('http://fonts.cdnfonts.com/css/museo-sans-cyrl');
 
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
 .ProjectsDesc {
     display: flex;
     justify-content: space-between;
@@ -365,4 +369,71 @@
 .ProjectsVivatScreen {
     display: flex;
     align-items: flex-end;
+}
+
+.ProjectsYNL {
+    padding: 0;
+}
+
+.ProjectsYNLContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.ProjectsYNLText {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProjectsYNLHeader {
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    opacity: 0.5;
+}
+
+.ProjectsYNLDesc {
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    opacity: 0.25;
+}
+
+.ProjectsYNLHeader, .ProjectsYNLDesc {
+    width: 60%;
+    text-align: center;
+}
+
+.ProjectsGlaucoma {
+    padding: 0;
+    position: relative;
+    width: 520px;
+}
+
+.ProjectsGlaucomaContent {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #6791D0;
+    width: 100%;
+    padding: 38px 42px;
+}
+
+.GlaucomaBackground {
+    position: absolute;
+    z-index: 1;
 }

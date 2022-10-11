@@ -312,12 +312,35 @@ function OurProjects() {
                                 />
                             </div>
                         </Col>
-                        <Col sm={5}>
-
+                        <Col sm={5} className="ProjectsBanner ProjectsYNL">
+                            <div className="ProjectsYNLContent">
+                                <div className="ProjectsYNLText">
+                                    <h3 className="ProjectsYNLHeader">
+                                        ТЫ НЕ ОДИН
+                                    </h3>
+                                    <div className="ProjectsYNLDesc">
+                                        АНКЕТИРОВАНИЕ И ПОДДЕРЖКА ОНКОБОЛЬНЫХ РС(Я)
+                                    </div>
+                                </div>
+                                <img
+                                    src="images/Projects/YNL/background.png"
+                                    className="YNLbackground"
+                                    alt=""
+                                />
+                            </div>
                         </Col>
                     </Row>
                     <Row className="ProjectsRow">
-
+                        <Col sm={5} className="ProjectsBanner ProjectsGlaucoma">
+                            <div className="ProjectsGlaucomaContent">
+                                Скрининговый сервис по выявлению глаукомы
+                            </div>
+                            <img
+                                src="images/Projects/glaucoma/background.png"
+                                className="GlaucomaBackground"
+                                alt=""
+                            />
+                        </Col>
                     </Row>
                 </div>
             </Container>
