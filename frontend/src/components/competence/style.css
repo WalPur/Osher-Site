@@ -1,0 +1,28 @@
+.CompetenceButton {
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    border-radius: 12px;
+    transition: .1s linear;
+    padding: 12px 0;
+
+    color: #323232;
+    background-color: transparent;
+    border: none;
+}
+
+.CompetenceButton:hover {
+    background: #3FBAFF!important;
+    color: #ffffff;
+    padding: 12px 32px;
+}
+
+.CompetenceButton:hover .feedbackUnderline {
+    border-color: #ffffff;
+}

@@ -1,3 +1,5 @@
+import Competence from './competence/Competence';
+import Clients from './Clients/Clients';
 import Directions from './Directions/Directions';
 import Footer from './Footer/Footer';
 import Header from './header/header'
@@ -11,7 +13,8 @@ const Components = {
     ItSolutions,
     Directions,
     OurProjects,
-
+    Competence,
+    Clients,
     Footer,
 }
 

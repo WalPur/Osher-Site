@@ -11,7 +11,8 @@ function Home() {
             <Components.ItSolutions />
             <Components.Directions />
             <Components.OurProjects />
-
+            <Components.Competence />
+            <Components.Clients />
             <Components.Footer />
         </div>
     )
