@@ -437,3 +437,68 @@
     position: absolute;
     z-index: 1;
 }
+
+.ProjectsFemale {
+    background: #C5F4EC;
+    width: 740px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ProjectsFemaleContent {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.ProjectsFemaleInfo {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.ProjectsFemaleHeader {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #006D65;
+}
+
+.ProjectsFemaleDesc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1EAEA3;
+}
+
+.ProjectsFemaleBackground {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.FemaleBackgroundShape {
+    position: absolute;
+    z-index: 1;
+}
+
+.FemaleBackgroundRoses {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+}
+
+.FemaleBackgroundScreens {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}

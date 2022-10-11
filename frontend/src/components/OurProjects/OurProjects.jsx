@@ -332,14 +332,53 @@ function OurProjects() {
                     </Row>
                     <Row className="ProjectsRow">
                         <Col sm={5} className="ProjectsBanner ProjectsGlaucoma">
-                            <div className="ProjectsGlaucomaContent">
+                            <h3 className="ProjectsGlaucomaContent">
                                 Скрининговый сервис по выявлению глаукомы
-                            </div>
+                            </h3>
                             <img
                                 src="images/Projects/glaucoma/background.png"
                                 className="GlaucomaBackground"
                                 alt=""
                             />
+                        </Col>
+                        <Col sm={7} className="ProjectsBanner ProjectsFemale">
+                            <div className="ProjectsFemaleContent">
+                                <div className="ProjectsFemaleInfo">
+                                    <h3 className="ProjectsFemaleHeader">
+                                        Женское здоровье
+                                    </h3>
+                                    <p className="ProjectsFemaleDesc">
+                                        Проект «Женское здоровье» разработан 
+                                        для сохранения и укрепления здоровья 
+                                        женского населения Республики Саха 
+                                        (Якутия).
+                                    </p>
+                                </div>
+                                <div className="ProjectsFemaleLogo">
+                                    <img
+                                        src="images/Projects/female/logo.png"
+                                        className="FemaleLogo"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div className="ProjectsFemaleBackground">
+                                <img
+                                    src="images/Projects/female/background shape.png"
+                                    className="FemaleBackgroundShape"
+                                    alt=""
+                                />
+                                <img
+                                    src="images/Projects/female/roses.png"
+                                    className="FemaleBackgroundRoses"
+                                    alt=""
+                                />
+                                <img
+                                    src="images/Projects/female/screens.png"
+                                    className="FemaleBackgroundScreens"
+                                    alt=""
+                                />
+                            </div>
                         </Col>
                     </Row>
                 </div>
