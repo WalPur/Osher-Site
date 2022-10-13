@@ -9,6 +9,10 @@ function Clients() {
     return(
         <div className="Clients">
             <Container>
+                <h2 className="CompetenceTitle SecondaryFrameTitle">
+                    Наши клиенты
+                    <div className="FrameTitleLine"></div>
+                </h2>
                 <Row className="ClientsRow1 ClientsRow">
                     <img
                         src="images/Clients/11.png"
@@ -88,11 +92,13 @@ function Clients() {
                         alt="ИТ ПАРК ЯКУТСК"
                     />
                 </Row>
-                <Button 
-                    variant="outline-info" 
-                    className="headerButton mainButton">
-                        Стать клиентом
-                </Button>
+                <Row className="ClientsButtonRow">
+                    <Button 
+                        variant="outline-info" 
+                        className="headerButton mainButton">
+                            Стать клиентом
+                    </Button>
+                </Row>
             </Container>
         </div>
     )

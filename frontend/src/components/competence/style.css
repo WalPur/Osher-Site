@@ -1,3 +1,8 @@
+.Comptences {
+    display: flex;
+    justify-content: space-between;
+}
+
 .CompetenceButton {
     display: flex;
     align-items: flex-end;
@@ -25,4 +30,33 @@
 
 .CompetenceButton:hover .feedbackUnderline {
     border-color: #ffffff;
+}
+
+.CompetenceScreen {
+    width: 66%;
+}
+
+.CompetencesTech {
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3FBAFF;
+    margin-bottom: 12px;
+}
+
+.CompetencesTechList {
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.015em;
+    color: #323232;
+    margin-bottom: 12px;
+}
+
+.CompetenceImage {
+    margin-right: 12px;
 }
