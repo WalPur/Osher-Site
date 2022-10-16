@@ -411,12 +411,12 @@ function OurProjects() {
                             </div>
                             <div className="ProjectsTatarLogos">
                                 <img
-                                    src="images/Projects/tatar/LogoA.png"
+                                    src="images/Projects/tatar/logoA.png"
                                     className="TatarLogo"
                                     alt=""
                                 />
                                 <img
-                                    src="images/Projects/tatar/LogoB.png"
+                                    src="images/Projects/tatar/logoB.png"
                                     className="TatarLogo TatarLogoB"
                                     alt=""
                                 />
