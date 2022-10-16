@@ -397,7 +397,7 @@ function OurProjects() {
                                         </p>
                                     </div>
                                     <a 
-                                        href="https://disk.yandex.ru/d/nylntI0IXfRZVg" 
+                                        href="https://drive.google.com/file/d/1wOqD3b7vJfZvKSTPfZ-IgvJtVXr-lgYT/view?usp=sharing" 
                                         className="ProjectsTatarLink"
                                     >
                                         Перейти к презентации
