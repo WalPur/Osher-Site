@@ -418,8 +418,6 @@ function OurProjects() {
                                 <img
                                     src="images/Projects/tatar/LogoB.png"
                                     className="TatarLogo TatarLogoB"
-                                    target='_blank'
-                                    rel="noopener"
                                     alt=""
                                 />
                             </div>
