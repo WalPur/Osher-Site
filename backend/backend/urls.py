@@ -21,7 +21,8 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('summernote/', include('django_summernote.urls')),
-    path('job/', include('job.urls'))
+    path('job/', include('job.urls')),
+    path('client/', include("partner.urls")),
 ]
 
 if settings.DEBUG:
