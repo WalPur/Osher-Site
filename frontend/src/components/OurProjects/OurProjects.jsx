@@ -1,8 +1,8 @@
 import "./style.css"
 
+import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 function OurProjects() {
     return(
@@ -379,6 +379,56 @@ function OurProjects() {
                                     alt=""
                                 />
                             </div>
+                        </Col>
+                    </Row>
+                    <Row className="ProjectsRow">
+                        <Col sm={7} className="ProjectsBanner ProjectsTatar">
+                            <div className="ProjectsTatarContent">
+                                <div className="ProjectsTatarText">
+                                    <div className="ProjectsTatarMain">
+                                        <h3 className="ProjectTatarHeader">
+                                            Вкусняшки от татарина
+                                        </h3>
+                                        <p className="ProjectsTatarDesc">
+                                            Проект разработан совместно с Торговым 
+                                            Домом “РегионСнаб” при патронате Крымской 
+                                            Региональной Общественной Организации 
+                                            “Крымское Землячество Республики Татарстан”
+                                        </p>
+                                    </div>
+                                    <a 
+                                        href="https://drive.google.com/file/d/1wOqD3b7vJfZvKSTPfZ-IgvJtVXr-lgYT/view?usp=sharing" 
+                                        className="ProjectsTatarLink"
+                                    >
+                                        Перейти к презентации
+                                    </a>
+                                    <img
+                                        src="images/Projects/tatar/Vector 58.png"
+                                        className="TatarContentBackground"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div className="ProjectsTatarLogos">
+                                <img
+                                    src="images/Projects/tatar/logoA.png"
+                                    className="TatarLogo"
+                                    alt=""
+                                />
+                                <img
+                                    src="images/Projects/tatar/logoB.png"
+                                    className="TatarLogo TatarLogoB"
+                                    alt=""
+                                />
+                            </div>
+                            <img
+                                src="images/Projects/tatar/background.png"
+                                className="TatarBackground"
+                                alt=""
+                            />
+                        </Col>
+                        <Col sm={5} className="ProjectsBanner">
+
                         </Col>
                     </Row>
                 </div>
