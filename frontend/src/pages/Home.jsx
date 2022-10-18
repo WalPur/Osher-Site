@@ -7,13 +7,15 @@ function Home() {
     return(
         <div>
             <Components.Header />
-            <Components.MainFrame />
-            <Components.ItSolutions />
-            <Components.Directions />
-            <Components.OurProjects />
-            <Components.Competence />
-            <Components.Clients />
-            <Components.Footer />
+            <div id="ContentFrame">
+                <Components.MainFrame />
+                <Components.ItSolutions />
+                <Components.Directions />
+                <Components.OurProjects />
+                <Components.Competence />
+                <Components.Clients />
+                <Components.Footer />
+            </div>
         </div>
     )
 }
