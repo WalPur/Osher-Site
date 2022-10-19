@@ -61,3 +61,22 @@
     background: none!important;
     border: none!important;
 }
+
+.FormSubmitRow {
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.FormSubmit {
+    width: fit-content;
+}
+
+.FormContacts {
+    width: fit-content;
+    display: flex;
+}
+
+.FormContactsPhone, .FormContactsMail {
+    width: fit-content;
+    margin-left: 15px;
+}

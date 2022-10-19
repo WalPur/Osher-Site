@@ -2,8 +2,10 @@ import "./style.css"
 
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
+import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Modal from 'react-modal';
@@ -24,6 +26,7 @@ Modal.setAppElement('#root');
 
 function Header() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
+  const [validated, setValidated] = React.useState(false);
 
   function openModal() {
     setIsOpen(true);
@@ -32,6 +35,16 @@ function Header() {
   function closeModal() {
     setIsOpen(false);
   }
+
+  const handleSubmit = (event) => {
+    const form = event.currentTartget;
+    console.log(form)
+    if (form.checkValidity() === false) {
+      event.preventDefault();
+      event.stopPropagation();
+    } else {setValidated(true);}
+  };
+
   return (
     <header>
       <Navbar bg="light" expand="lg">
@@ -72,38 +85,106 @@ function Header() {
         contentLabel="Example Modal"
         style={customStyles}
       >
-        <Form>
-          <Form.Group  controlId="clientsForm.ControlInput1">
-            <Form.Label>ФИО</Form.Label>
-            <Form.Control type="text" placeholder="Иванов Иван Иванович" />
-          </Form.Group>
-          <Form.Group  controlId="clientsForm.ControlInput1">
-            <Form.Label>Телефон</Form.Label>
-            <Form.Control type="text" placeholder="+7 (999) 999 99-99" />
-          </Form.Group>
-          <Form.Group  controlId="clientsForm.ControlInput1">
-            <Form.Label>Компания</Form.Label>
-            <Form.Control type="text" placeholder="Название компании" />
-          </Form.Group>
-          <Form.Group  controlId="clientsForm.ControlInput1">
-            <Form.Label>E-mail</Form.Label>
-            <Form.Control type="email" placeholder="Электронная почта" />
-          </Form.Group>
-          <Form.Group  controlId="clientsForm.ControlInput1">
+        <Form  validated={validated} onSubmit={handleSubmit}>
+          <Row>
+            <Col>
+              <Form.Group controlId="clientsForm.ControlInput1">
+                <Form.Label>ФИО</Form.Label>
+                <Form.Control 
+                  type="text" 
+                  placeholder="Иванов Иван Иванович"
+                  required
+                />
+              </Form.Group>
+            </Col>
+            <Col>
+              <Form.Group controlId="clientsForm.ControlInput2">
+                <Form.Label>Телефон</Form.Label>
+                <Form.Control 
+                  type="text" 
+                  placeholder="+7 (999) 999 99-99"
+                  required
+                />
+              </Form.Group>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Form.Group controlId="clientsForm.ControlInput3">
+                <Form.Label>Компания</Form.Label>
+                <Form.Control 
+                  type="text" 
+                  placeholder="Название компании"
+                  required
+                />
+              </Form.Group>
+              </Col>
+              <Col>
+                <Form.Group controlId="clientsForm.ControlInput4">
+                  <Form.Label>E-mail</Form.Label>
+                  <Form.Control 
+                    type="email" 
+                    placeholder="Электронная почта" 
+                    required
+                  />
+                </Form.Group>
+              </Col>
+            </Row>
+          <Form.Group controlId="clientsForm.ControlInput5">
             <Form.Label>Бюджет пректа</Form.Label>
             <Form.Select>
               <option value="<1">До 1 млн рублей</option>
               <option value="1:3">От 1 до 3 млн рублей</option>
               <option value="3:5">От 3 до 5 млн рублей</option>
-              <option value="5:10">От 5 млн до 10 млн рублей</option>
+              <option value="5:10">От 5 до 10 млн рублей</option>
               <option value=">10">От 10 млн рублей</option>
             </Form.Select>
           </Form.Group>
-          <Form.Check
-            type="checkbox"
-            label="Нажимая на кнопку, вы соглашаетесь с Политикой 
-            персональных данных"
-          />
+          <Form.Group controlId="clientsForm.ControlInput5">
+            <Form.Label>Сообщение</Form.Label>
+            <Form.Control 
+              as="textarea" 
+              placeholder="В чем заключается задача? В какие сроки? Пару слов 
+              о компании"
+              rows={10}
+              required
+            />
+          </Form.Group>
+          <Form.Group>
+            <Form.Check 
+              type="checkbox"
+              label="Нажимая на кнопку, вы соглашаетесь с Политикой 
+              персональных данных"
+              id="clientsForm.ControlInput0"
+              required
+            />
+          </Form.Group>
+          <Row className="FormSubmitRow">
+            <Button 
+              className="FormSubmit" 
+              type="submit"
+            >
+              Отправить
+            </Button>
+            <div className="FormContacts">
+              <div className="FormContactsPhone">
+                <img
+                  src="images/Footer/phone.png"
+                  className="FooterPhone FooterIcon"
+                  alt="Телефон"
+                />
+                +7 (999) 245 18-18
+              </div>
+              <div className="FormContactsMail">
+                <img
+                  src="images/Footer/mail.png"
+                  className="FooterMail FooterIcon"
+                  alt="Почта"
+                />
+                osher.tech@yandex.ru
+              </div>
+            </div>
+          </Row>
         </Form>
       </Modal>
     </header>
